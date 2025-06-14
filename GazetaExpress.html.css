@@ -1,0 +1,491 @@
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gazeta Express</title>
+        </head>
+        <style>
+/* Footer Styles */
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+}
+
+.copyright-notice {
+    flex: 2;
+    padding-right: 40px;
+}
+
+.copyright-notice h3 {
+    color: #e63946;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.copyright-notice p {
+    color: #aaa;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e63946;
+}
+
+.footer-bottom {
+    background-color: #111;
+    padding: 15px 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.all-rights {
+    color: #aaa;
+}
+
+.footer-logo {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .copyright-notice {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.news-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.news-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 15px;
+}
+
+.news-header h1 {
+    color: #e63946;
+    font-size: 32px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.news-header h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 5px 0 0;
+    font-weight: normal;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.main-news {
+    grid-column: 1 / -1;
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.main-news h3 {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.news-item {
+    padding: 15px;
+    border-left: 3px solid #e63946;
+}
+
+.news-item.highlight {
+    background-color: #fff8f8;
+}
+
+.news-item h3 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #1a1a1a;
+}
+
+.news-item p {
+    color: #666;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+}
+h1 {
+    font-size: 28px;
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1d3557;
+    margin-bottom: 8px;
+}
+
+.location {
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.thank-you {
+    font-style: italic;
+    color: #666;
+}
+
+.secondary-news {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.news-item {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+            h1 {
+                color: red;
+            }
+            body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+li {
+    color:white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: red;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.section h2 {
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.news-item {
+    margin: 15px 0;
+}
+
+.news-item h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.breaking-news {
+    background-color: #fff8e1;
+}
+
+.breaking-title {
+    color: #d32f2f !important;
+    font-weight: bold;
+}
+
+.egress {
+    font-style: italic;
+    color: #555;
+}
+
+.latest {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px !important;
+}
+
+.time {
+    color: #d32f2f;
+    font-weight: bold;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.promo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e63946;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.promo-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #e63946;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.promo-item h2 {
+    color: #e63946;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.promo-item p {
+    color: #333;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+        </style>
+<body>
+     <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">Express</span>
+                <li>Lajme</li>
+                <li>Sport</li>
+                <li>Op/Ed</li>
+                <li>Roze</li>
+                <li>Te tjera</li>
+                <li>Foleja</li>
+            </ul>
+        </div>
+    </nav>
+<img src="Screenshot_9.png" align="left" width="1000">
+  <div class="container">
+        <!-- Sports Section -->
+        <div class="section sports">
+            <h2>Futboll</h2>
+            <div class="news-item">
+                <h3>Gyokeres e ka prioritet</h3>
+                <p>Arsenalin</p>
+                <img src="Screenshot_10.png">
+            </div>
+        </div>
+
+        <!-- News Section -->
+        <div class="section news">
+            <h2>Lajme</h2>
+            <div class="news-item">
+                <h3>Gjendet i vdekur një person në Pejë - Policia jep detaje</h3>
+<img src="Screenshot_11.png">
+            </div>
+        </div>
+          <div class="section breaking-news">
+            <h2 class="breaking-title"></h2>
+            <p class="egress">Egress</p>
+            <h2 class="latest">ME TE FUNDIT</h2>
+            
+            <div class="news-item">
+                <p class="time">20:41</p>
+                <h3>Sulmi ndaj dy politikanëve në SHBA nga një person i veshur si</h3>
+            </div>
+            
+            <div class="news-item">
+                <p class="time">20:34</p>
+                <h3>“Vendi i parë në Evropë që po i pranon të dëbuarit nga SHBA”</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <Br>
+        <br>
+    <hr>
+    <h1>Top Stories</h1>
+    <img src="Screenshot_12.png" width="1500">
+    <br>
+    <br>
+    <hr>
+     <div class="promo-container">
+        <h1>Foleja.com</h1>
+        
+        <div class="promo-item">
+            <h2>Foleja.com</h2>
+            <p>Super zbrtije këtë javë në foleja.com: "Weekly Deals" deri në -69%</p>
+            <img src="Screenshot_13.png">
+        </div>
+        
+        <div class="promo-item">
+            <h2>Foleja.com</h2>
+            <p>Ofertë për Bajram nga foleja.com – zbrtije deri në -59% në koleksionin Gorilla</p>
+            <img src="Screenshot_14.png">
+        </div>
+        
+        <div class="promo-item">
+            <h2>Foleja.com</h2>
+            <p>Foleja-jel "Bajram Deals" me zbrtije deri në -50% për rader të feratës</p>
+            <img src="Screenshot_17.png">
+        </div>
+        <br>
+        <br>
+        <hr>
+    <h1>Me te fundit</h1>
+ <div class="news-grid">
+        
+
+            <article class="news-item highlight">
+                <h3>"Vendi i parë në Evropë që po i pranon të dëbuarit nga SHBA"</h3>
+                <p>Diplomatja amerikane në Prishtinë: Faleminderit partnerit tonë Kosovës</p>
+                <img src="Screenshot_20.png">
+            </article>
+
+            <article class="news-item">
+                <h3>I hoq shtetësia pasi punonte si polic në Serbi</h3>
+                <p>NV. dëbohet nga Kosova, i ndalohet hyria për 5 vjet</p>
+                <img src="Screenshot_21.png">
+            </article>
+
+            <article class="news-item">
+                <h3>Gjendet i vdekur një person në Pejë</h3>
+                <p>Policia jep detaje</p>
+                <img src="Screenshot_22.png">
+            </article>
+              <article class="news-item">
+                <h3>“Asnjë hap mbrapa”, Parada e Krenarisë që u mbajt sot në mbrëmje</h3>
+                <p>nëpërmjet fotografive</p>
+                <img src="Screenshot_45.png">
+            </article>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <img src="Screenshot_46.png" width="1500">
+     <footer class="site-footer">
+        <div class="footer-content">
+            <div class="copyright-notice">
+                <h3>GazetaExpress</h3>
+                <p>This website is maintained by Gazeta Express sh.p.k. All materials and information published on this portal are protected by copyright laws and may not be copied, reproduced, printed, distributed, or used in any form for commercial or profit purposes without prior written consent from Gazeta Express.</p>
+            </div>
+            
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <span class="all-rights">All rights are reserved</span>
+                <span class="footer-logo">Gazeta Express &copy;</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
