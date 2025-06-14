@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sherreti</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.car {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+    body {
+      margin: 0;
+      background-color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .nav-left, .nav-right {
+      color: #888; 
+      font-size: 18px;
+    }
+
+    .nav-center {
+      font-family: 'Orbitron', sans-serif; 
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: white;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: black;
+      color: silver;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.social-footer {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-link:hover {
+    color: #0066cc;
+    transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+  /* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.sherbeti-footer {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 40px 0 20px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Brand Header */
+.footer-brand h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+/* Columns Layout */
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* Address Section */
+.address-col p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Links Section */
+.links-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-col li {
+    margin-bottom: 10px;
+}
+
+.links-col a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links-col a:hover {
+    color: #0066cc;
+}
+
+/* Social Media Section */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links i {
+    margin-right: 10px;
+    width: 16px;
+    text-align: center;
+}
+
+.social-links .fa-check {
+    color: #28a745;
+}
+
+.social-links .fa-times {
+    color: #dc3545;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0066cc;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.smiley {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-col {
+        min-width: 100%;
+    }
+}
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-left">Ballina</div>
+    <div class="nav-center">SHERRETI</div>
+    <div class="nav-right">Veturat</div>
+  </div>
+<img src="2da525c5-a404-488c-ab33-ffb261bdea1b.jpeg"  height="600" width="1560 ">
+<div class="section">
+  <h2>Automjetet e veçuara</h2>
+  <p>Nëse dëshironi të shihni veturat e veçanta që posedojmë dhe janë të disponueshme për shitje, këtu janë disa nga opsionet që kemi në dispozicion</p>
+ <div class="container">
+        <div class="car">
+            <img src="front-left-side-47.avif" height="400">
+            <h3>Maybach GLS 600</h3>
+            <p>2025</p>
+            <p>0 km</p>
+        </div>
+        <div class="car">
+            <img src="fotoweb_2-10-scaled.webp" height="400">
+            <h3>Audi RSQ8 4.0 TFSI</h3>
+            <p>2024</p>
+            <p>5,000 km</p>
+        </div>
+        <div class="car">
+            <img src="TopGear - First Drive - Mercedes SL -002.jpg" height="400">
+            <h3>Mercedes SL 63 AMG</h3>
+            <p>2025</p>
+            <p>1,000 km</p>
+        </div>
+        <div class="car">
+            <img src="2024-porsche-cayenne.avif" heigt="400">
+            <h3>Porsche Cayenne</h3>
+            <p>2025</p>
+            <p>1,200 km</p>
+        </div>
+    </div>
+<hr>
+<img src="Screenshot_4.png" width="1600">
+<hr>
+<img align="left" src="Screenshot_7.png" width="600">
+<h1 align="center">Gjeni makinën tuaj të ëndrrave në showroom-in tonë.</h1>
+<p align="center">Ne kemi një gamë të plotë automjetesh luksoze
+   me çmime konkuruese, duke përfshirë oferta krejt të reja nga prodhuesit e 
+   makinave të nivelit të
+   lartë të zgjedhura me kujdes për të përmbushur nevojat dhe personalitetin e klientit.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<img src="Screenshot_8.png" width="1600">
+<hr>
+ <footer class="social-footer">
+        <div class="social-links">
+            <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+                <span>Like us on Facebook</span>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+                <span>Follow us on Instagram</span>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-tiktok"></i>
+                <span>Follow us on TikTok</span>
+            </a>
+        </div>
+    </footer>
+    <footer class="sherbeti-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>SHERRETI</h2>
+            </div>
+            
+            <div class="footer-columns">
+                <div class="footer-col address-col">
+                    <h3>Adresa</h3>
+                    <p>Magj. Prishtine-Ferizaj,<br>
+                    Çagllavicë 10010<br>
+                    Kosovë</p>
+                </div>
+                
+                <div class="footer-col links-col">
+                    <h3>Linqe</h3>
+                    <ul>
+                        <li><a href="#">Sherbeti Group</a></li>
+                        <li><a href="#">Sherbeti Rent</a></li>
+                        <li><a href="#">Veturat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col social-col">
+                    <h3>Rrjetet Sociale</h3>
+                    <ul class="social-links">
+                        <li><i class="fas fa-check"></i> <a href="#">Facebook</a></li>
+                        <li><i class="fas fa-times"></i> <a href="#">Instagram</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2009-2025 - All rights reserved <span class="smiley">😊</span> by Kosovwwwa LLC</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
